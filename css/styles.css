@@ -1,0 +1,243 @@
+:root {
+  /* Основные шрифты */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /* цвета */
+  --color-content: #757575;
+  --color-title: #212121;
+  --color-white: #ffffff;
+  --primary-bg: #2f303a;
+  --secondary-bg: #f5f4fa;
+  --accent-col: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--color-content);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.title {
+  color: var(--color-title);
+}
+.header-logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+}
+.logo-color {
+  color: var(--accent-col);
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+}
+.nav-link:hover {
+  color: var(--accent-col);
+}
+.nav-link:focus {
+  color: var(--accent-col);
+}
+.item-mail,
+.item-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--color-content);
+}
+
+.item-tel:hover,
+.item-tel:focus {
+  color: var(--accent-col);
+}
+.item-mail:hover,
+.item-mail:focus {
+  color: var(--accent-col);
+}
+.hero {
+  background-color: var(--primary-bg);
+  text-align: center;
+}
+
+.main-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+.hero-button {
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-white);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
+.feature {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.portfolio-title,
+.name,
+.feature {
+  color: var(--color-title);
+}
+.portfolio-item {
+  color: var(--color-content);
+}
+/*  Чем мы занимаемся, Наша команда*/
+.title-foto,
+.title-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+}
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+}
+.position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--secondary-bg);
+}
+/* Подвал */
+.footer {
+  font-family: var(--secondary-font);
+  background-color: var(--primary-bg);
+}
+.color-studio {
+  color: var(--color-white);
+}
+.footer-nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--color-white);
+}
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: var(--accent-col);
+}
+
+.footer-link-mail,
+.footer-link-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-mail:hover {
+  color: var(--accent-col);
+}
+.footer-link-mail:focus {
+  color: var(--accent-col);
+}
+.footer-link-tel:hover {
+  color: var(--accent-col);
+}
+.footer-link-tel:focus {
+  color: var(--accent-col);
+}
+/* portfolio */
+.btn-item:hover {
+  background-color: var(--accent-col);
+  color: var(--color-white);
+}
+.btn-item:focus {
+  background-color: var(--accent-col);
+  color: var(--color-white);
+}
+.btn-item {
+  background-color: var(--secondary-bg);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfolio-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
