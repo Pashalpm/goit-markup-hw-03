@@ -57,6 +57,9 @@ p {
   letter-spacing: 0.03em;
   color: var(--color-title);
 }
+.nav-list .current {
+  color: var(--accent-col);
+}
 .logo-color {
   color: var(--accent-col);
 }
