@@ -1,0 +1,252 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --primary-black-color: #434455;
+  --titlt-black-color: #2e2f42;
+  --background-color: #ffffff;
+  --background-futer-hero: #2e2f42;
+  --button-color: #4d5ae5;
+  --hover-link-color: #404bbf;
+}
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-black-color);
+  font-size: 16px;
+  background-color: var(--background-color);
+  line-height: 1.5;
+}
+.title {
+  letter-spacing: 0.02em;
+  color: var(--titlt-black-color);
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/**
+  |============================
+  | header
+  |============================
+*/
+.header {
+  background-color: var(--backgraund-heder-color);
+}
+.header-nav {
+  background-color: var(--background-color);
+}
+.logo-header,
+.logo-futer {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.header-logo {
+  color: var(--background-futer-hero);
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--hover-link-color);
+}
+.adr {
+  font-style: normal;
+}
+.adr-list {
+}
+.adr-item {
+}
+.adr-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+  text-decoration: none;
+}
+.adr-link:hover,
+.adr-link:focus {
+  color: var(--hover-link-color);
+}
+
+/**
+  |============================
+  | main
+  |============================
+*/
+/**
+  |============================
+  | Effective Solutions for Your Business
+  |============================
+*/
+.section-solutions {
+  background-color: var(--background-futer-hero);
+}
+.title-solutions {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+.btn {
+  font-family: var(--primary-font);
+  background-color: var(--button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--hover-link-color);
+}
+
+/**
+  |============================
+  | advantages
+  |============================
+*/
+.section-advantages {
+}
+.list-advantages {
+}
+.advantages-item {
+}
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.advantages-text {
+}
+/**
+  |============================
+  | What are we doing
+  |============================
+*/
+.section-waw {
+}
+.waw-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+}
+.list-waw {
+}
+.waw-img {
+}
+/**
+  |============================
+  | Our Team
+  |============================
+*/
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+}
+.section-team {
+  background-color: #f4f4fd;
+}
+.list-team {
+}
+.team-item {
+  background-color: var(--background-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team-text {
+}
+/**
+  |============================
+  | footer
+  |============================
+*/
+.footer {
+  background-color: var(--background-futer-hero);
+}
+
+.footer-logo {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #f4f4fd;
+}
+/**
+  |============================
+  | portfolio
+  |============================
+*/
+.main-portfolio {
+}
+.filters {
+}
+.list-filters {
+}
+.item-btn {
+}
+.view-btn {
+  font-family: var(--primary-font);
+  background-color: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+}
+.view-btn:hover,
+.view-btn:focus {
+  background-color: var(--hover-link-color);
+  color: var(--background-color);
+  cursor: pointer;
+}
+.item-row {
+}
+.list-row {
+}
+.row-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.row-text {
+}
