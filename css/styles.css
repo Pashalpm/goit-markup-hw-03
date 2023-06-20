@@ -79,14 +79,14 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  padding: 24px 147px 24px 15px;
+  padding: 24px 76px 24px 15px;
 }
 .header-logo {
   color: var(--background-futer-hero);
 }
 .header-list {
   display: flex;
-  width: 281px;
+  width: 261px;
   justify-content: space-between;
   margin: 24px 332px 24px 0;
 }
