@@ -15,6 +15,32 @@ body {
   background-color: var(--background-color);
   line-height: 1.5;
 }
+/**
+  |============================
+  | reset
+  |============================
+*/
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+/**
+  |============================
+  | 
+  |============================
+*/
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: auto;
+}
+.container-header {
+  display: flex;
+}
 .title {
   letter-spacing: 0.02em;
   color: var(--titlt-black-color);
@@ -41,6 +67,8 @@ body {
 }
 .header-nav {
   background-color: var(--background-color);
+  display: flex;
+  align-items: center;
 }
 .logo-header,
 .logo-futer {
@@ -51,11 +79,16 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  padding: 24px 147px 24px 15px;
 }
 .header-logo {
   color: var(--background-futer-hero);
 }
 .header-list {
+  display: flex;
+  width: 281px;
+  justify-content: space-between;
+  margin: 24px 332px 24px 0;
 }
 .header-item {
 }
@@ -75,8 +108,16 @@ body {
   font-style: normal;
 }
 .adr-list {
+  display: flex;
+  align-items: center;
 }
-.adr-item {
+.adr-mail {
+  width: 153px;
+  margin: 24px 40px 24px 0;
+}
+.adr-tel {
+  width: 151px;
+  margin: 24px 15px 24px 0;
 }
 .adr-link {
   font-weight: 400;
@@ -236,6 +277,9 @@ body {
 .view-btn:focus {
   background-color: var(--hover-link-color);
   color: var(--background-color);
+  cursor: pointer;
+}
+.img {
   cursor: pointer;
 }
 .item-row {
