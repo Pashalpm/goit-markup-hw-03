@@ -40,6 +40,7 @@ p {
 }
 .container-header {
   display: flex;
+  border-bottom: 1px solid #fce7e7;
 }
 .title {
   letter-spacing: 0.02em;
@@ -145,6 +146,7 @@ p {
 */
 .section-solutions {
   background-color: var(--background-futer-hero);
+  width: ;
 }
 .title-solutions {
   font-weight: 700;
