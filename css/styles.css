@@ -191,7 +191,6 @@ p {
 .list-advantages {
   width: 1128px;
   display: flex;
-  /* align-items: flex-start; */
   gap: 24px;
 }
 .advantages-item {
@@ -314,6 +313,11 @@ p {
 .filters {
 }
 .list-filters {
+  display: flex;
+  margin-top: 96px;
+  margin-bottom: 72px;
+  margin-left: 270px;
+  gap: 24px;
 }
 .item-btn {
 }
@@ -324,7 +328,11 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  text-align: center;
   color: var(--button-color);
+  padding: 12px 24px;
 }
 .view-btn:hover,
 .view-btn:focus {
