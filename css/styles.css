@@ -28,6 +28,9 @@ p {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+}
 /**
   |============================
   | 
@@ -79,7 +82,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  padding: 24px 76px 24px 0;
+  margin-right: 76px;
 }
 .header-logo {
   color: var(--background-futer-hero);
@@ -87,8 +90,12 @@ p {
 .header-list {
   display: flex;
   width: 261px;
-  justify-content: space-between;
-  margin: 24px 332px 24px 0;
+  gap: 40px;
+  margin-right: 332px;
+  padding: 24px 0;
+
+  /* justify-content: space-between;
+  margin: 24px 332px 24px 0; */
 }
 .header-item {
 }
@@ -97,8 +104,8 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
+  /* color: #2e2f42;
+  text-decoration: none; */
 }
 .header-link:hover,
 .header-link:focus {
@@ -110,14 +117,15 @@ p {
 .adr-list {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .adr-mail {
   width: 153px;
-  margin: 24px 40px 24px 0;
+  margin-right: 40px;
 }
 .adr-tel {
   width: 151px;
-  margin: 24px 15px 24px 0;
+  /* margin: 24px 15px 24px 0; */
 }
 .adr-link {
   font-weight: 400;
