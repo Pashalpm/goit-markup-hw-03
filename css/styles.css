@@ -344,6 +344,7 @@ p {
 
 .img {
   cursor: pointer;
+  display: grid;
 }
 .item-row {
 }
@@ -351,12 +352,8 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* padding-bottom: 48px; */
-  padding: 0;
 }
 .row-title {
-  /* padding-top: 32px;
-  padding-bottom: 8px; */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -370,7 +367,7 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  border-left: 1px solid red;
-  border-right: 1px solid red;
-  border-bottom: 1px solid red;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
