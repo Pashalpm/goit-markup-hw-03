@@ -103,8 +103,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: #2e2f42;
-  text-decoration: none; */
+  color: #2e2f42;
 }
 .header-link:hover,
 .header-link:focus {
@@ -124,7 +123,6 @@ img {
 }
 .adr-tel {
   width: 151px;
-  /* margin: 24px 15px 24px 0; */
 }
 .adr-link {
   font-weight: 400;
@@ -163,8 +161,8 @@ img {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
-  padding-bottom: 48px;
   margin: auto;
+  margin-bottom: 48px;
 }
 .btn {
   min-width: 169px;
